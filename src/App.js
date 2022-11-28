@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
-import { HiClipboardCheck, HiHome, HiSearch } from 'react-icons/hi'
+import { HiClipboardCheck,  HiSearch } from 'react-icons/hi'
 import { MdGroup, MdTrendingUp } from 'react-icons/md'
 import './App.css'
 import Movie from './pages/Movie'
@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <p id="titleGroup">Cinema On-Demand</p>
+        <p id="titleGroup">All in One Cinema</p>
       </header>
       <Routes>
         <Route path="/" element={<Movie />} />
