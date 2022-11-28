@@ -7,13 +7,12 @@ export default function index({ data, onClick }) {
       {data ? (
         <>
           <figure>
-            <img src={data.i.imageUrl} alt={data.l} />
+            <img src={data.id} alt={data.l} />
           </figure>
           <div className="card-info">
-            <h3>{data.l}</h3>
-            <p>{data.q}</p>
-            <p>{data.y}</p>
-            <p>Ranking {data.rank}</p>
+            <h3>{data.id}</h3>
+            <p>{data.chartRating}</p>
+           
           </div>
         </>
       ) : (

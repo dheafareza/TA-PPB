@@ -1,14 +1,14 @@
-
 import "./Movie.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 // Components
 import Card from "../component/Card";
 import Modal from "../component/Modal";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Movie() {
-
+    const navigate = useNavigate();
 
 
 
@@ -57,6 +57,7 @@ export default function Movie() {
     const handleClick = (item) => {
       setModalShow(!modalShow);
       setModalItem(item);
+      navigate('/reservation')
     };
     return (
       <main>
@@ -85,5 +86,3 @@ export default function Movie() {
       </main>
     );
   }
-  
-  

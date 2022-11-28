@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-size: 18px;
   color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:  "Exo 2", sans-serif;
   font-weight:bolder;
   font-size: 20px;
 }
@@ -67,7 +67,7 @@ footer {
   align-items: center;
   text-decoration: none;
   color: white;
-  font-family: Verdana;
+  font-family: "Exo 2", sans-serif;
   padding: 5px 0;
   font-size: 12px;
 }

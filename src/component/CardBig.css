@@ -19,12 +19,12 @@
     color: white;
     font-size: 22px;
     font-weight: bold;
-    font-family: Verdana;
+    font-family: "Exo 2", sans-serif;
   }
   
   #genre {
     color: grey;
-    font-family: Verdana;
+    font-family: "Exo 2", sans-serif;
     font-weight: 500;
     font-size: 12px;
     margin-top: 5px;
