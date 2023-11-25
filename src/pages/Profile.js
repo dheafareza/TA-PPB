@@ -6,7 +6,7 @@ import "./Profile.css";
 export default function Profile() {
   const [data, setData] = useState([]);
   const githubUsernameList = [
-    "farizsdk"
+    "dheafareza"
   ];  
   
   useEffect(()=>{

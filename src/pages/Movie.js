@@ -63,7 +63,7 @@ export default function Movie() {
       <main>
         <input
           type="text"
-          placeholder="Search film by name"
+          placeholder="Search film/actor by name"
           onKeyDown={(e) => onSearch(e)}
         />
         <h3 className="title">Search : {query}</h3>
