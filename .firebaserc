@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "aiocinema"
-  }
+    "default": "ta-ppb-2fef8",
+    "development": "ta-ppb-2fef8"
+  },
+  "targets": {},
+  "etags": {}
 }
